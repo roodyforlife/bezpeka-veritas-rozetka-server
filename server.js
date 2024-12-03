@@ -4,6 +4,7 @@ import fetch from 'node-fetch';
 import xml2js from 'xml2js'
 import cors from 'cors';
 import fs from 'fs/promises'
+import {default as sfs} from 'fs'
 
 const app = express();
 const PORT = 8080;
@@ -19,6 +20,25 @@ app.get('/feed.xml', async (req, res) => {
     res.send(fileData);
   } catch (error) {
     res.send(error);
+  }
+});
+
+app.get('/stream/feed.xml', async (req, res) => {
+  try {
+    const datafilePath = path.join('./', 'data.xml');
+    res.setHeader('Content-Type', 'application/xml');
+    res.setHeader('Content-Disposition', 'inline; filename="feed.xml"');
+    const readStream = sfs.createReadStream(datafilePath);
+
+    readStream.on('error', (err) => {
+      console.error('Ошибка при чтении файла:', err);
+      res.status(500).send('Ошибка сервера');
+    });
+
+    readStream.pipe(res);
+  } catch (error) {
+    console.error('Ошибка:', error);
+    res.status(500).send('Ошибка сервера');
   }
 });
 
