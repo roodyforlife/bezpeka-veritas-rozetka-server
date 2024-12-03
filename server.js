@@ -71,7 +71,7 @@ app.get('/get_all_categories', async (req, res) => {
                 return offers.some(offer => offer.categoryId.toString() === category.id);
             });
           
-        res.set('Content-Type', 'application/json');
+        res.set('Content-Type', 'text/json');
         res.send(filteredCategories);
           } else {
             res.status(500).send('Данные в XML некорректны');
@@ -158,5 +158,5 @@ async function fetchProductsAsync() {
   }
 }
 
-setInterval(fetchProductsAsync, 60000);
+setInterval(fetchProductsAsync, 1800000);
 fetchProductsAsync()
