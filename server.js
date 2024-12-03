@@ -6,7 +6,7 @@ import cors from 'cors';
 import fs from 'fs/promises'
 
 const app = express();
-const PORT = process.env.PORT;
+const PORT = 8080;
 
   app.use(cors());
 
@@ -15,7 +15,7 @@ app.get('/feed.xml', async (req, res) => {
     const response = await fetch(
         "https://bezpeka-veritas.in.ua/products_feed.xml?hash_tag=4f482c6bb1330a1ad5e7bc61763328f8&sales_notes=&product_ids=&label_ids=10827772&exclude_fields=description&html_description=0&yandex_cpa=&process_presence_sure=&languages=ru&group_ids="
       )
-      
+
   try {
     if (!response.ok) {
       throw new Error(`Ошибка загрузки: ${response.statusText}`);
