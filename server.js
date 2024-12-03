@@ -26,8 +26,10 @@ app.get('/feed.xml', async (req, res) => {
 app.get('/stream/feed.xml', async (req, res) => {
   try {
     const datafilePath = path.join('./', 'data.xml');
-    res.setHeader('Content-Type', 'application/xml');
+    res.setHeader('Content-Type', 'text/xml');
+    res.setHeader('Content-Encoding', 'gzip');
     res.setHeader('Content-Disposition', 'inline; filename="feed.xml"');
+    
     const readStream = sfs.createReadStream(datafilePath, 'utf8');
 
     readStream.on('error', (err) => {
