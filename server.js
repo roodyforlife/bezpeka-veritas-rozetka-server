@@ -28,7 +28,7 @@ app.get('/stream/feed.xml', async (req, res) => {
     const datafilePath = path.join('./', 'data.xml');
     res.setHeader('Content-Type', 'application/xml');
     res.setHeader('Content-Disposition', 'inline; filename="feed.xml"');
-    const readStream = sfs.createReadStream(datafilePath);
+    const readStream = sfs.createReadStream(datafilePath, 'utf8');
 
     readStream.on('error', (err) => {
       console.error('Ошибка при чтении файла:', err);
