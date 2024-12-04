@@ -99,6 +99,7 @@ app.post('/settings', async (req, res) => {
     const filePath = path.join('', 'settings.json');
     let currentData = [];
     currentData.push(...settingsData);
+    console.log(`LOG: push the new settings ${Date.now()}`, currentData)
     try {
         await fs.writeFile(filePath, JSON.stringify(currentData, null, 2), "utf8")
         res.status(200).send('Данные успешно сохранены');
@@ -150,6 +151,7 @@ async function fetchProductsAsync() {
         const updatedXml = builder.buildObject(result);
         const datafilePath = path.join('./', 'data.xml');
         await fs.writeFile(datafilePath, updatedXml, 'utf8');
+        console.log(`LOG: data.xml file is updated ${Date.now()}`)
       } else {
         console.error('Ошибка');
       }
