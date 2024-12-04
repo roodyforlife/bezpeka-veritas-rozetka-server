@@ -49,7 +49,7 @@ app.get('/get_all_categories', async (req, res) => {
     const xmlData = await fs.readFile(datafilePath, 'utf8');
     const result = await xml2js.parseStringPromise(xmlData);
     try {
-        const filePath = path.join('./', 'settings.json');
+        const filePath = path.join('', 'settings.json');
         const fileData = await fs.readFile(filePath, 'utf8');
         const settingData = JSON.parse(fileData);
         if (result.yml_catalog?.shop?.[0]?.offers?.[0]?.offer) {
@@ -122,7 +122,7 @@ async function fetchProductsAsync() {
     if (result.yml_catalog?.shop?.[0]?.offers?.[0]?.offer) {
         const offers = result.yml_catalog.shop[0].offers[0].offer;
   
-        const settingsfilePath = path.join('./', 'settings.json');
+        const settingsfilePath = path.join('', 'settings.json');
         let settingData = [];
   
         try {
