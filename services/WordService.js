@@ -29,7 +29,16 @@ class WordService {
                 acc[item.key] = item.value;
                 return acc;
             }, {});
-            const zipResult = await processFilesAndCreateZip(selectedFiles, result)
+
+            const content = await fs.readFile(templatesFile, "utf8");
+            const templates = JSON.parse(content)
+            const template = templates.find((template) => template.id === selectedTemplate.id)
+            var imageBytes = [];
+            if (template) {
+                imageBytes = template.image
+            }
+
+            const zipResult = await processFilesAndCreateZip(selectedFiles, result, imageBytes)
             return zipResult
         } else {
             throw Error("Error")

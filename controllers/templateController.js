@@ -1,6 +1,8 @@
 import TemplateService from "../services/TemplateService.js"
+import multer from 'multer';
 
 const templateService = new TemplateService()
+const upload = multer();
 
 function templateController(app) {
     app.get("/templates", async (req, res) => {
@@ -8,9 +10,13 @@ function templateController(app) {
         res.send(templates)
     })
 
-    app.post("/template", async (req, res) => {
+    app.post("/template", upload.any(), async (req, res) => {
         try {
-            const template = req.body
+            const template = JSON.parse(req.body.template);
+            if (req.files[0]) {
+                template.image = req.files[0].buffer
+            }
+
             await templateService.add(template)
             res.send(200)
         } catch (error) {
@@ -18,9 +24,13 @@ function templateController(app) {
         }
     })
 
-    app.put("/template", async (req, res) => {
+    app.put("/template", upload.any(), async (req, res) => {
         try {
-            const template = req.body
+            const template = JSON.parse(req.body.template);
+            if (req.files[0]) {
+                template.image = req.files[0].buffer
+            }
+
             await templateService.edit(template)
             res.send(200)
         } catch (error) {

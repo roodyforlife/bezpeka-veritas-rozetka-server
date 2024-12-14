@@ -6,9 +6,13 @@ import rozetkaController from './controllers/rozetkaController.js';
 import hotlineController from './controllers/hotlineController.js';
 import epicentrController from './controllers/epicentrController.js';
 import templateController from './controllers/templateController.js';
+import HTTP from 'http';
+
+const WebServer = HTTP.createServer();
 
 const app = express();
 const PORT = 8080;
+// WebServer.listen(PORT, "127.1.3.19")
 
   app.use(cors());
 
@@ -25,17 +29,3 @@ const PORT = 8080;
 
   setInterval(fetchProductsAsync, 1800000);
   fetchProductsAsync()
-
-// app.post('/settings', async (req, res) => {
-//     const settingsData = req.body;
-//     const filePath = path.join('', 'settings.json');
-//     let currentData = [];
-//     currentData.push(...settingsData);
-//     console.log(`LOG: push the new settings ${Date.now()}`, currentData)
-//     try {
-//         await fs.writeFile(filePath, JSON.stringify(currentData, null, 2), "utf8")
-//         res.status(200).send('Данные успешно сохранены');
-//     } catch (error) {
-//         return res.status(500).send('Ошибка при записи в файл');
-//     }
-// })

@@ -29,7 +29,7 @@ class TemplateService {
         const templates = await getJsonTemplates()
         const updatedTemplates = templates.map((currentTemplate) => {
             if (currentTemplate.id === template.id) {
-                return template;
+                return {...template, image: currentTemplate.image};
             }
 
             return currentTemplate;

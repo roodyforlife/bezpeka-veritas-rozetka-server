@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<yml_catalog date="2024-12-11 15:50">
+<yml_catalog date="2024-12-13 14:40">
   <shop>
     <name>Bezpeka Veritas - Магазин тактичного спорядження</name>
     <company>Bezpeka Veritas - Магазин тактичного спорядження</company>
@@ -47,6 +47,7 @@
       <category id="133431362">Мережеве обладнання &gt; Передача сигналу viatec</category>
       <category id="114997468" parentId="114997448">Тактические наушники</category>
       <category id="121669216" parentId="114997468">Тактические беруши</category>
+      <category id="121880533" parentId="114997468">Крепления для наушников</category>
       <category id="116483536" parentId="116483534">Тактическая обувь</category>
       <category id="116483534" parentId="114997448">Тактическая одежда</category>
       <category id="118884423" parentId="109321095">Саундкомпенсаторы</category>
@@ -58,139 +59,138 @@
       <category id="109321095" parentId="114997448">Обвесы / тюнинг для оружия</category>
       <category id="115195835" parentId="114997448">Штативы</category>
       <category id="126714888" parentId="123102461">Автомобильные антенны</category>
-      <category id="121880533" parentId="114997468">Крепления для наушников</category>
+      <category id="114889411" parentId="114889414">Аксессуары для портативных источников питания</category>
       <category id="119194853" parentId="114997448">Аксессуары для оптики</category>
       <category id="119196217" parentId="119194853">Зажимы и адаптеры для оптики</category>
       <category id="119196584" parentId="119194853">Наборы для ухода за оптикой</category>
-      <category id="114889411" parentId="114889414">Аксессуары для портативных источников питания</category>
       <category id="119214463" parentId="114997448">Средства защиты</category>
       <category id="115973898" parentId="114889414">Портативные зарядные станции</category>
-      <category id="115835152" parentId="115825561">Аккумуляторные батареи lifepo4 72v (Литий-железо-фосфат)</category>
       <category id="115835155" parentId="114889444">Комплекты (ИБП 12/24)</category>
+      <category id="115835152" parentId="115825561">Аккумуляторные батареи lifepo4 72v (Литий-железо-фосфат)</category>
       <category id="115835153" parentId="115825561">Аккумуляторные батареи lifepo4 36v (Литий-железо-фосфат)</category>
       <category id="115835157" parentId="115825561">Аккумуляторные батареи lifepo4 48v (Литий-железо-фосфат)</category>
       <category id="120166302" parentId="114889388">Комплекты бесперебойного питания</category>
       <category id="121861976" parentId="119668373">Пульты к дронам</category>
-      <category id="123102481" parentId="119034025">Аккумуляторы</category>
       <category id="137996504">Комплектующие для антидроновых систем</category>
-      <category id="115938612" parentId="114889506">Жесткие диски на 1 Тб</category>
+      <category id="123102481" parentId="119034025">Аккумуляторы</category>
       <category id="115851808" parentId="114889507">Комплект видеонаблюдения с 1 камерой</category>
       <category id="122001213" parentId="115825561">Аккумуляторные батареи lifepo4 6v (Литий-железо-фосфат)</category>
+      <category id="115938612" parentId="114889506">Жесткие диски на 1 Тб</category>
       <category id="115825569" parentId="115825561">Аккумуляторные батареи lifepo4 24v (Литий-железо-фосфат)</category>
-      <category id="115835151" parentId="115825561">Аккумуляторные батареи lifepo4 60v (Литий-железо-фосфат)</category>
       <category id="115825561" parentId="114889417">Аккумуляторные батареи LifePo4 ( литий-железо-фосфат)</category>
-      <category id="116252990" parentId="114889445">ИБП с  встроенным аккумулятором</category>
+      <category id="115835151" parentId="115825561">Аккумуляторные батареи lifepo4 60v (Литий-железо-фосфат)</category>
+      <category id="116254684" parentId="114889417">Зарядные устройства для аккумулятора</category>
       <category id="114889576" parentId="116254684">Зарядные устройства для АКБ (AGM, GEL) LogicPower</category>
       <category id="122001247" parentId="115825561">Аккумуляторные батареи lifepo4 4v (Литий-железо-фосфат)</category>
-      <category id="116254684" parentId="114889417">Зарядные устройства для аккумулятора</category>
-      <category id="130856669" parentId="114889445">Комплекты ИБП с  внешним аккумулятором</category>
+      <category id="116252990" parentId="114889445">ИБП с  встроенным аккумулятором</category>
       <category id="114889426" parentId="114889388">Преобразователи напряжения</category>
       <category id="115835156" parentId="114889444">Корпусные (ИБП 12/24в)</category>
       <category id="115847531" parentId="114889482">Бп перфорированные (для LED лент)</category>
-      <category id="114889444" parentId="114889388">Малоамперные источники питания</category>
+      <category id="130856669" parentId="114889445">Комплекты ИБП с  внешним аккумулятором</category>
       <category id="115382045" parentId="114889401">Тепловизионные камеры</category>
-      <category id="115201983" parentId="115171109">Охранные датчики Ajax</category>
-      <category id="115171120" parentId="115171109">Централи Hub</category>
+      <category id="114889444" parentId="114889388">Малоамперные источники питания</category>
       <category id="115171122" parentId="115171109">Комплекты</category>
-      <category id="115171124" parentId="115171109">Модули интеграции Ajax</category>
+      <category id="115201983" parentId="115171109">Охранные датчики Ajax</category>
       <category id="115171116" parentId="115171109">Сирены для Ajax</category>
-      <category id="115171118" parentId="115171109">Датчики пожара</category>
+      <category id="115171120" parentId="115171109">Централи Hub</category>
       <category id="115165580" parentId="115171109">Розетки, реле</category>
       <category id="115171119" parentId="115171109">Батарейки для Ajax</category>
       <category id="115382043" parentId="115171109">Аксессуары для Ajax</category>
       <category id="115171117" parentId="115171109">Датчики потопа</category>
-      <category id="115171121" parentId="115171109">Клавиатуры</category>
+      <category id="115171124" parentId="115171109">Модули интеграции Ajax</category>
       <category id="116254697" parentId="114889417">Аксессуары для аккумуляторов</category>
-      <category id="109009569" parentId="114889445">ИБП с  внешним аккумулятором</category>
+      <category id="115171118" parentId="115171109">Датчики пожара</category>
+      <category id="115171121" parentId="115171109">Клавиатуры</category>
       <category id="114889468" parentId="114889388">Комплекты СЭС</category>
+      <category id="109009569" parentId="114889445">ИБП с  внешним аккумулятором</category>
       <category id="114889461" parentId="114889390">Стабилизаторы LogicPower сервоприводные трехфазные</category>
       <category id="114889487" parentId="114889390">Стабилизаторы LogicPower релейный тип (100-260/7 ступ.)</category>
-      <category id="114889514" parentId="114889401">Аксесуары для видеонаблюдения</category>
+      <category id="115938600" parentId="114889525">IP камеры видеонаблюдения</category>
       <category id="114889460" parentId="114889390">Стабилизаторы LogicPower релейный тип</category>
       <category id="114889503" parentId="114889401">Кронштейны для камер</category>
+      <category id="114889514" parentId="114889401">Аксесуары для видеонаблюдения</category>
       <category id="114889505" parentId="114889401">Разьемы, переходники</category>
       <category id="114889507" parentId="114889401">Комплекты видеонаблюдения</category>
-      <category id="114889524" parentId="114889401">Приемники-передатчики</category>
       <category id="114889529" parentId="114889401">Антивандальные решетки для камер</category>
       <category id="114889552" parentId="114889401">Мониторы для видеонаблюдения</category>
-      <category id="115851805" parentId="114889507">Комплекты видеонаблюдения с 10 камерами</category>
+      <category id="114889524" parentId="114889401">Приемники-передатчики</category>
       <category id="115851806" parentId="114889507">Комплекты видеонаблюдения с 3 камерами</category>
       <category id="115851807" parentId="114889507">Комплекты видеонаблюдения с 2 камерами</category>
-      <category id="115938600" parentId="114889525">IP камеры видеонаблюдения</category>
       <category id="115851809" parentId="114889507">Комплекты видеонаблюдения с 4 камерами</category>
+      <category id="115851805" parentId="114889507">Комплекты видеонаблюдения с 10 камерами</category>
       <category id="115851810" parentId="114889507">Комплекты видеонаблюдения с 8 камерами</category>
       <category id="115927040" parentId="114889507">Комплекты наблюдения на 5 камер</category>
-      <category id="115851811" parentId="114889507">Комплекты видеонаблюдения с 6 камерами</category>
-      <category id="115938596" parentId="114889505">Разъем-power под зажим (мама)</category>
       <category id="115938595" parentId="114889505">Разъем rj-45</category>
       <category id="115938598" parentId="114889505">Разъем-power под зажим (папа)</category>
+      <category id="115851811" parentId="114889507">Комплекты видеонаблюдения с 6 камерами</category>
       <category id="115938599" parentId="114889505">Прийомопередавач (balun)</category>
-      <category id="115938597" parentId="114889505">Разъем-power BNC</category>
-      <category id="115938603" parentId="114889506">Жесткие диски на 8 Тб</category>
-      <category id="115938604" parentId="114889506">Жесткие диски на 3 Тб</category>
-      <category id="115938605" parentId="114889506">Жесткие диски на 18 Тб</category>
-      <category id="115938606" parentId="114889506">Жесткие диски на 14 Тб</category>
-      <category id="115938607" parentId="114889506">Жесткие диски на 12 Тб</category>
-      <category id="115938608" parentId="114889506">Жесткие диски на 10 тб</category>
       <category id="115938602" parentId="114889506">Жесткие диски на 16 тб</category>
+      <category id="115938596" parentId="114889505">Разъем-power под зажим (мама)</category>
+      <category id="115938597" parentId="114889505">Разъем-power BNC</category>
+      <category id="115938604" parentId="114889506">Жесткие диски на 3 Тб</category>
+      <category id="115938603" parentId="114889506">Жесткие диски на 8 Тб</category>
+      <category id="115938605" parentId="114889506">Жесткие диски на 18 Тб</category>
+      <category id="115938607" parentId="114889506">Жесткие диски на 12 Тб</category>
+      <category id="115938606" parentId="114889506">Жесткие диски на 14 Тб</category>
       <category id="115938609" parentId="114889506">Жесткие диски на 6 Тб</category>
       <category id="115938613" parentId="114889506">Жесткие диски на 2ТБ</category>
       <category id="115932819" parentId="114889525">Панорамные камеры (180º-360º)</category>
       <category id="115932823" parentId="114889525">Камеры видеонаблюдения с солнечной панелью</category>
       <category id="114889525" parentId="114889401">Камеры видеонаблюдения</category>
-      <category id="115927038" parentId="114889533">Wi-fi видеорегистратор</category>
       <category id="115932822" parentId="114889525">Внутренние wi-fi камеры</category>
       <category id="115938610" parentId="114889525">Аналоговые камеры</category>
       <category id="115932821" parentId="114889525">Наружные  wi-fi камеры</category>
       <category id="112618637" parentId="111597698">Инверторные генераторы</category>
       <category id="115932824" parentId="114889525">Роботизированные ptz камеры</category>
       <category id="115938601" parentId="114889525">4G камеры</category>
+      <category id="115932825" parentId="114889525">Автомобильные камеры</category>
+      <category id="115927038" parentId="114889533">Wi-fi видеорегистратор</category>
       <category id="115927042" parentId="114889533">XVR-видеорегистраторы</category>
       <category id="115927043" parentId="114889533">NVR-видеорегистраторы</category>
       <category id="114889533" parentId="114889401">Видеорегистраторы</category>
       <category id="114889523" parentId="114889401">Нагрудные видеорегистраторы</category>
+      <category id="115938608" parentId="114889506">Жесткие диски на 10 тб</category>
+      <category id="114889442" parentId="114889391">Маршрутизаторы</category>
+      <category id="114889527" parentId="114889391">Wi-Fi маршрутизаторы, Точки доступа</category>
       <category id="116391281" parentId="114889391">PoE-сплиттеры</category>
       <category id="114889504" parentId="114889401">Комутационные боксы, адаптеры</category>
-      <category id="114889442" parentId="114889391">Маршрутизаторы</category>
-      <category id="131576258" parentId="131576251">Крепления для тепловизоров</category>
-      <category id="115932825" parentId="114889525">Автомобильные камеры</category>
-      <category id="114889527" parentId="114889391">Wi-Fi маршрутизаторы, Точки доступа</category>
       <category id="131576255" parentId="131576251">Крепления для ПНВ</category>
-      <category id="114889443" parentId="114889391">PoE-инжекторы</category>
+      <category id="131576258" parentId="131576251">Крепления для тепловизоров</category>
       <category id="131576260" parentId="131576251">Аксессуары</category>
-      <category id="114889456" parentId="114889391">Коммутаторы</category>
+      <category id="114889443" parentId="114889391">PoE-инжекторы</category>
       <category id="114889450" parentId="114889396">Комплекты домофонов</category>
+      <category id="114889456" parentId="114889391">Коммутаторы</category>
       <category id="115938594" parentId="114889516">Кабель type-c, Lighting, к ноутбуку</category>
       <category id="115201982" parentId="115171109">Карты, брелоки Ajax</category>
       <category id="133436280" parentId="114889391">Все для монтажа</category>
       <category id="138015626" parentId="133065797">Корпуса для РЭБ</category>
       <category id="114889499" parentId="114889392">Витая пара</category>
-      <category id="138016141" parentId="133065797">Квадрифилярные антенны для РЭБ</category>
-      <category id="133065797" parentId="128244610">Аксессуары для РЭБ</category>
       <category id="133065737" parentId="133065797">Всенаправленные антенны для РЭБ</category>
-      <category id="114889485" parentId="114889391">Коммутаторы с PoE</category>
       <category id="114889500" parentId="114889392">Коаксиальный кабель</category>
+      <category id="133065797" parentId="128244610">Аксессуары для РЭБ</category>
+      <category id="114889485" parentId="114889391">Коммутаторы с PoE</category>
       <category id="116218543" parentId="114889450">Видеодомофон 10 дюймов</category>
       <category id="121505118" parentId="114997460">Моноблоки</category>
+      <category id="115963587" parentId="114889535">Видеодомофон 4.3 дюймов</category>
       <category id="121505112" parentId="114997460">Кольца для прицелов</category>
       <category id="114889506" parentId="114889401">Жесткие диски (HDD) для видеонаблюдения</category>
-      <category id="115963587" parentId="114889535">Видеодомофон 4.3 дюймов</category>
       <category id="114889557" parentId="114889535">Видеодомофон 10 дюймов</category>
       <category id="131532631" parentId="122766713">Источники бесперебойного питания 220V</category>
       <category id="114889534" parentId="114889396">Вызывные панели для домофонов</category>
       <category id="121505122" parentId="114997460">Адаптеры для прицелов</category>
       <category id="114889535" parentId="114889396">Видеодомофоны</category>
       <category id="114889536" parentId="114889396">Wi-Fi видеодомофоны</category>
-      <category id="115851804" parentId="114889507">Комплекты видеонаблюдения с 12 камерами</category>
-      <category id="115938611" parentId="114889506">Жесткие диски на 4 Тб</category>
-      <category id="115963586" parentId="114889535">Видеодомофон 7 дюймов</category>
-      <category id="116218540" parentId="114889450">Видеодомофон 4.3 дюймов</category>
       <category id="115851803" parentId="114889507">Комплекты видеонаблюдения с 16 камерами</category>
-      <category id="116218541" parentId="114889450">Видеодомофон 7 дюймов</category>
-      <category id="133764680" parentId="128244610">Окопный РЭБ</category>
+      <category id="115938611" parentId="114889506">Жесткие диски на 4 Тб</category>
+      <category id="115851804" parentId="114889507">Комплекты видеонаблюдения с 12 камерами</category>
+      <category id="115963586" parentId="114889535">Видеодомофон 7 дюймов</category>
       <category id="119195845" parentId="119194853">Крышки защитные для оптики</category>
+      <category id="116218540" parentId="114889450">Видеодомофон 4.3 дюймов</category>
+      <category id="116218541" parentId="114889450">Видеодомофон 7 дюймов</category>
+      <category id="123102493" parentId="119034025">Зарядные устройства</category>
       <category id="121886025" parentId="120166302">Для квартиры</category>
       <category id="133764604" parentId="128244610">РЭБ на авто</category>
+      <category id="133764680" parentId="128244610">Окопный РЭБ</category>
       <category id="118594609" parentId="114889534">Вызывные панели</category>
       <category id="118011461" parentId="114997471">Тепловизионные прицелы</category>
       <category id="136689601" parentId="114889388">Высоковольтные аккумуляторы LiFePO4 (литий-железо фосфат)</category>
@@ -201,16 +201,17 @@
       <category id="119034025" parentId="118059269">Аксессуары для раций</category>
       <category id="123102500" parentId="118059269">Комплектующие</category>
       <category id="121700796" parentId="114997471">Тепловизионные бинокли</category>
-      <category id="131047447" parentId="127064136">FPV Дроны</category>
       <category id="122997589" parentId="114997456">Прицелы ночного видения</category>
       <category id="122997685" parentId="114997456">Монокуляры ночного видения</category>
       <category id="122968624" parentId="119668373">Готовые комплекты для управления дронами</category>
-      <category id="133000688" parentId="133000686">Шлемы</category>
+      <category id="131047447" parentId="127064136">FPV Дроны</category>
       <category id="133000704" parentId="133000686">Бронированные пояса</category>
-      <category id="133000692" parentId="133000686">Мягкая баллистическая защита</category>
+      <category id="133000688" parentId="133000686">Шлемы</category>
       <category id="133000689" parentId="133000686">Бронеплиты</category>
-      <category id="133000701" parentId="133000686"> Бронекостюмы</category>
+      <category id="133000692" parentId="133000686">Мягкая баллистическая защита</category>
       <category id="133000700" parentId="133000686">Бронежилеты</category>
+      <category id="133000701" parentId="133000686"> Бронекостюмы</category>
+      <category id="133000703" parentId="133000686">Бронеодеяло</category>
       <category id="133000707" parentId="133000686">Жилеты</category>
       <category id="133000709" parentId="133000686">Бронированная одежда</category>
       <category id="133000712" parentId="133000686">Плитоноски</category>
@@ -219,119 +220,118 @@
       <category id="133432693" parentId="114889391">Шкаф коммутационный</category>
       <category id="120850412" parentId="119668373">Кабеля для усиления сигнала</category>
       <category id="133065720" parentId="133065797">Модули помех</category>
-      <category id="133000703" parentId="133000686">Бронеодеяло</category>
-      <category id="123102493" parentId="119034025">Зарядные устройства</category>
-      <category id="123102498" parentId="119034025">Гарнитуры</category>
       <category id="118011419" parentId="114997471">Тепловизионные монокуляры</category>
       <category id="118012010" parentId="114997471">Тепловизионные насадки</category>
       <category id="122997687" parentId="114997456">Бинокуляры ночного видения</category>
       <category id="119214465" parentId="119214463">Глушилки дронов</category>
-      <category id="121861637" parentId="119668373">Очки для дронов</category>
-      <category id="114889516" parentId="114889388">Повербанки (PowerBank)</category>
       <category id="133433074" parentId="114889391">Передатчик сигнала</category>
-      <category id="132741029" parentId="114889388">Системы накопления энергии</category>
+      <category id="121861637" parentId="119668373">Очки для дронов</category>
       <category id="114889390" parentId="114889388">Стабилизаторы напряжения LogicPower</category>
       <category id="114889414" parentId="114889388">Портативные зарядные станции</category>
       <category id="114889417" parentId="114889388">Акумуляторы</category>
+      <category id="114889516" parentId="114889388">Повербанки (PowerBank)</category>
+      <category id="132741029" parentId="114889388">Системы накопления энергии</category>
       <category id="114889445" parentId="114889388">Источники бесперебойного питания 220 В + инвертори</category>
       <category id="115825558" parentId="114889417">Agm аккумуляторы</category>
+      <category id="115825559" parentId="114889417">Гелевые аккумуляторы</category>
       <category id="115171106" parentId="111597698">Бензиновие генераторы</category>
       <category id="121255784" parentId="116252969">Источники бесперебойного питания Full Energy</category>
-      <category id="115825559" parentId="114889417">Гелевые аккумуляторы</category>
       <category id="116252969" parentId="114889388">Гибридные инверторы </category>
-      <category id="134939594">Літієві акумулятори - viatec</category>
       <category id="133472515" parentId="133472511">Гибридные инверторы для дома и квартиры</category>
+      <category id="134782890" parentId="121862300">Мачты для антенн усилителей</category>
+      <category id="134939594">Літієві акумулятори - viatec</category>
       <category id="134039596" parentId="128244610">РЭБ рюкзак</category>
       <category id="134628672">Зарядні станції - viatec - export</category>
       <category id="137709192">Акб - sec</category>
-      <category id="134782890" parentId="121862300">Мачты для антенн усилителей</category>
       <category id="114889412" parentId="114889388">Солнечные модули</category>
-      <category id="133764685" parentId="128244610">Портативный РЭБ</category>
+      <category id="123102498" parentId="119034025">Гарнитуры</category>
       <category id="137725611" parentId="133472511">Солнечные панели</category>
-      <category id="135132304">Тепловізійний приціл</category>
-      <category id="135132305">Приціл нічного бачення</category>
-      <category id="135132306">Тепловізійний монокуляр</category>
       <category id="114997471">Тепловизоры</category>
+      <category id="133764685" parentId="128244610">Портативный РЭБ</category>
       <category id="132460624">DEKO</category>
-      <category id="135132307">Тепловізійний бінокль</category>
       <category id="132460625">Электрический лобзик DEKO</category>
-      <category id="135132308">Бінокль нічного бачення</category>
-      <category id="121862300" parentId="120850409">Аксессуары для усилителей сигнала</category>
+      <category id="135132304">Тепловізійний приціл</category>
+      <category id="138016141" parentId="133065797">Антенны для РЭБ на магнитной основе</category>
+      <category id="135132305">Приціл нічного бачення</category>
       <category id="122977753" parentId="119668373">Комплекты усилителей сигнала </category>
+      <category id="135132306">Тепловізійний монокуляр</category>
+      <category id="135132307">Тепловізійний бінокль</category>
+      <category id="135132308">Бінокль нічного бачення</category>
       <category id="128244610">РЭБ</category>
       <category id="114889388">Источники питания</category>
       <category id="114889391">Сетевое оборудование</category>
       <category id="114889392">Кабель, Инструмент</category>
+      <category id="121862300" parentId="120850409">Аксессуары для усилителей сигнала</category>
+      <category id="120850409">Усилители сигнала</category>
+      <category id="114997456">Приборы ночного видения</category>
+      <category id="115171109">Сигнализация Ajax</category>
+      <category id="117846146">Метеостанции</category>
       <category id="114889396">Домофоны</category>
       <category id="114889401">Видеонаблюдение</category>
       <category id="114997448">Оптические приборы и аксессуары</category>
       <category id="133919220">Прилади нічного бачення - viatec</category>
-      <category id="114997456">Приборы ночного видения</category>
-      <category id="115171109">Сигнализация Ajax</category>
-      <category id="117846146">Метеостанции</category>
+      <category id="127495681">Прожекторы для ПВО</category>
       <category id="118006840">Комплекты ночного видения для военных на автомобиль</category>
       <category id="118059269">Рации</category>
+      <category id="127969062">Векторные анализаторы</category>
       <category id="118417623">Очистители воды</category>
       <category id="119668373">Аксессуары для квадрокоптеров</category>
+      <category id="128984115">Крепления для шлемов</category>
       <category id="124017404">Сантехника</category>
+      <category id="130010833">Бинокли</category>
       <category id="126564911">Аккумуляторные батареи и энергетика</category>
+      <category id="130010835">Подзорные трубы</category>
       <category id="127064136">Квадрокоптеры</category>
       <category id="133431361">Мережеве обладнання &gt; Серверні платформи viatec</category>
-      <category id="127495681">Прожекторы для ПВО</category>
-      <category id="127969062">Векторные анализаторы</category>
-      <category id="128984115">Крепления для шлемов</category>
-      <category id="120850409">Усилители сигнала</category>
-      <category id="130010833">Бинокли</category>
-      <category id="130010835">Подзорные трубы</category>
-      <category id="133431363">Мережеве обладнання &gt; Шкафи </category>
       <category id="132441920">Детекторы дронов</category>
+      <category id="133431363">Мережеве обладнання &gt; Шкафи </category>
       <category id="132460623">Пассивное сетевое оборудование LogicPower</category>
-      <category id="133000686">Бронезащита</category>
       <category id="133431364">Мережеве обладнання &gt; Wi-Fi мости viatec</category>
-      <category id="133188829">Антидроны sec</category>
+      <category id="133000686">Бронезащита</category>
       <category id="133472511">Энергонезависимость</category>
-      <category id="133188830">Солнечные панели sec</category>
+      <category id="133188829">Антидроны sec</category>
       <category id="133979158">ГЕНЕРАТОРИ - oz</category>
-      <category id="133191298">Тепловізори agm</category>
-      <category id="133191374">Дальномеры</category>
       <category id="133979159">Тепловізори - oz</category>
-      <category id="133191375">Прицелы</category>
+      <category id="133188830">Солнечные панели sec</category>
       <category id="133979160">Прилади нічного бачення - oz</category>
-      <category id="133191376">Монокуляры</category>
-      <category id="133191377">Ukrarmor_for_prom</category>
+      <category id="133191298">Тепловізори agm</category>
       <category id="133979161">Монокуляри - oz</category>
-      <category id="133374958">Системи накопичення енергії - v</category>
       <category id="133979162">Далекоміри - oz</category>
+      <category id="133191374">Дальномеры</category>
+      <category id="133979163">Оптичні приціли - oz</category>
+      <category id="133979164">Коліматорні приціли - oz</category>
+      <category id="133191375">Прицелы</category>
+      <category id="133979165">Біноклі - oz</category>
+      <category id="133979166">Підзорні труби - oz</category>
+      <category id="133191376">Монокуляры</category>
+      <category id="133979167">Кріплення для прицілю - oz</category>
+      <category id="133191377">Ukrarmor_for_prom</category>
+      <category id="135652306">Станции управления FPV Дроном с оптоволокном</category>
+      <category id="133374958">Системи накопичення енергії - v</category>
+      <category id="136325258">Енергосистеми &gt; Акумулятори  - trini</category>
       <category id="133423762">Інвертори - v</category>
+      <category id="136325259">Енергосистеми &gt; Портативні зарядні станції - trini</category>
       <category id="133431357">Мережеве обладнання - Комутатори viatec</category>
       <category id="133431358">Мережеве обладнання - Точки доступу - viatec</category>
       <category id="133431359">Мережеве обладнання - Інжектори, медіаконвертори viatec</category>
       <category id="133472836" parentId="133472511">Аккумуляторы</category>
-      <category id="133979163">Оптичні приціли - oz</category>
-      <category id="133979164">Коліматорні приціли - oz</category>
-      <category id="133979165">Біноклі - oz</category>
-      <category id="133979166">Підзорні труби - oz</category>
       <category id="133472910" parentId="133472836">Литий-железо-фосфатные аккумуляторы (LiFePo4)</category>
-      <category id="133979167">Кріплення для прицілю - oz</category>
       <category id="133472913" parentId="133472511">Комплекты инверторы и аккумуляторы</category>
-      <category id="135652306">Станции управления FPV Дроном с оптоволокном</category>
       <category id="133473087" parentId="133472511">Зарядные станции для дома</category>
-      <category id="136325258">Енергосистеми &gt; Акумулятори  - trini</category>
       <category id="133472840" parentId="133472836">Гелевые аккумуляторы</category>
-      <category id="136325259">Енергосистеми &gt; Портативні зарядні станції - trini</category>
       <category id="122771566" parentId="115171106">Бензиновые - инверторные генераторы</category>
-      <category id="136325260">Енергосистеми &gt; Системи накопичення енергії - trini</category>
-      <category id="136325261">Енергосистеми &gt; Аксесуари до джерел живлення - trini</category>
       <category id="122771963" parentId="111597698">Дизельные генераторы</category>
-      <category id="136325262">Енергосистеми &gt; Генератори - trini</category>
       <category id="111597698">Дизельные и бензиновые генераторы</category>
       <category id="114889563" parentId="114889482">БП на din рейку</category>
+      <category id="131047446" parentId="127064136">Квадрокоптеры DJI Mavic</category>
+      <category id="128289839">Терминалы спутниковой связи Starlink</category>
+      <category id="136325260">Енергосистеми &gt; Системи накопичення енергії - trini</category>
+      <category id="136325261">Енергосистеми &gt; Аксесуари до джерел живлення - trini</category>
+      <category id="136325262">Енергосистеми &gt; Генератори - trini</category>
       <category id="136325263">Джерела безперебійного живлення &gt; ДБЖ 12/24V - trini</category>
       <category id="136325264">Джерела безперебійного живлення &gt; ДБЖ UPS 220V - trini</category>
       <category id="136325265">Блоки живлення &gt; Блоки живлення 12/24/48V - trini</category>
       <category id="136325266">Сонячна енергетика &gt; Інвертори для сонячних панелей - trini</category>
-      <category id="131047446" parentId="127064136">Квадрокоптеры DJI Mavic</category>
-      <category id="128289839">Терминалы спутниковой связи Starlink</category>
       <category id="136325267">Сонячна енергетика &gt; Контролери заряду сонячних панелей - trini</category>
       <category id="136325268">Сонячна енергетика &gt; Сонячні панелі - trini</category>
       <category id="136325269">Системи накопичення енергії &gt; Акумуляторні батареї LiFePO4 - trini</category>
@@ -694,7 +694,7 @@
         <vendorCode>OP-747031</vendorCode>
         <param name="Цвет">Красный</param>
       </offer>
-      <offer id="1780760289" available="true">
+      <offer id="1780760289" available="false">
         <url>https://bezpeka-veritas.in.ua/p1780760289-kollimatornyj-pribor-holosun.html</url>
         <price>14476</price>
         <currencyId>UAH</currencyId>
